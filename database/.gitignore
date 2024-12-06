@@ -1,0 +1,71 @@
+*.sqlite*
+/vendor
+/node_modules
+.env
+/storage
+/bootstrap/cache
+
+# Directorios generados por Composer y Laravel
+/vendor/
+/bootstrap/cache/
+/storage/*.key
+/storage/logs/
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+
+# Archivos sensibles y de configuración local
+.env
+.env.*
+*.env.local
+.phpunit.result.cache
+
+# Directorios generados por Node.js y herramientas JS
+/node_modules/
+/dist/
+/public/hot
+/public/storage
+/public/mix-manifest.json
+/public/css
+/public/js
+
+# Archivos generados por Vite (Vue.js + Tailwind)
+.vite/deps
+.vite/*.cache
+*.css.map
+*.js.map
+*.ts.map
+
+# Cache del IDE
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Logs del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de npm y Yarn lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache del editor y archivos temporales
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+
+# Otros (si usas Docker, puedes ignorar sus archivos temporales)
+.docker/
+docker-compose.override.yml
+
+# Test coverage (si usas Jest o herramientas similares para tests)
+coverage/
+
+# Archivos de TailwindCSS generados automáticamente
+tailwind.config.js.old
